@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>AULA VIRTUAL - TASA - PASSWORD SEGURO</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="Description" content="Administrador.">
+		<link rel="stylesheet" href="https://aulavirtual.tasa.com.pe/paquetes/password-seguro/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://aulavirtual.tasa.com.pe/paquetes/password-seguro/css/style.css">
+
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+		<script type="text/javascript">
+			function mostraropciones(id){
+				if (document.getElementById){ //se obtiene el id
+				var el = document.getElementById(id); //se define la variable "el" igual a nuestro div
+				el.style.display = (el.style.display == 'none') ? 'block' : 'none'; //damos un atributo display:none que oculta el div
+				}
+			}
+			window.onload = function(){
+				mostraropciones('opciones');
+				window.setTimeout("mostraropciones('opciones')",18000);
+			}
+		</script>
+
+	</head>
+
+	<body class="page page-principal">
+
+		
+
+	<div class="container-fluid">
+		<div class="row col-12">
+			<div class="embed-responsive embed-responsive-16by9">
+			  <iframe width="640" height="360" class="embed-responsive-item" src="https://web.microsoftstream.com/embed/video/eca1186f-d272-43d7-9eac-33e92da9e5b5?autoplay=true&showinfo=true" frameborder="0" allowfullscreen ></iframe>
+			</div>
+		</div>
+
+
+
+
+		<div class="row pt-2" id="opciones">
+			<div class="row col-12 pb-3">
+				<div class="col-12 d-flex justify-content-center">¿QUÉ HARÍAS EN ESA SITUACIÓN?</div>
+				<div class="col-12 d-flex justify-content-center"><small>Selecciona una alternativa para continuar</small></div>
+			</div>
+
+
+
+			<div class="row col-12 pb-3">
+
+				<div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 d-flex justify-content-center pb-3">
+					<a href="https://aulavirtual.tasa.com.pe/paquetes/password-seguro/respuesta-a.html" class="btn btn-success" target="contenedor-password"><strong>COMPARTIR EL PASSWORD</strong><br><small>Es urgente y somos un mismo equipo</small></a>
+				</div>
+				<div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4  d-flex justify-content-center pb-3">
+					<a href="https://aulavirtual.tasa.com.pe/paquetes/password-seguro/respuesta-b.html" class="btn btn-success" target="contenedor-password"><strong>DAR PASSWORD PROVISIONAL</strong><br><small>Luego se puede actualizar</small></a>
+				</div>
+				<div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4  d-flex justify-content-center pb-3">
+					<a href="https://aulavirtual.tasa.com.pe/paquetes/password-seguro/respuesta-c.html" class="btn btn-success" target="contenedor-password"><strong>NO COMPARTIR PASSWORD</strong><br><small>Debe haber forma de obtener el reporte</small></a>
+				</div>
+
+			</div>
+
+
+
+
+		</div>
+	</div>
+
+	</body>
+</html>

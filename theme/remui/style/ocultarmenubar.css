@@ -1,0 +1,14 @@
+.hidden-float
+{
+  display:none!important;
+}
+
+.site-menubar
+{
+  display: none!important;
+}
+.page, .site-footer
+{
+  margin-left: 0px!important;
+}
+}

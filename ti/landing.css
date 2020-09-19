@@ -1,0 +1,91 @@
+.mideco-lading-cabecera{
+	background-color:#fff;
+	background-image: url(http://cinecorporativo.pe/landintasa/landingcover.jpg);
+	background-repeat: no-repeat;
+}
+
+.mideco-lading-cabecera h2{
+	color: white!important;
+	text-transform: uppercase;
+	padding-top: 100px!important;
+	padding-bottom: 50px!important;
+	font-size: 3rem!important;
+	text-align: center;
+	font-weight: 800;
+}
+
+
+.boxes-landing {
+	list-style:none;
+	display: -webkit-flex; /* Safari */
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+  display: flex;   
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.boxes-item{
+	margin: 20px 4px;
+	text-align:center;
+	background-color: #5cbdeb;
+	display: -webkit-flex; /* Safari */
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+  display: flex;   
+  flex-wrap: wrap;
+	justify-content: center;
+  align-items: center;
+}
+
+.boxes-item a {
+	display: -webkit-flex; /* Safari */
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+  display: flex;   
+  flex-wrap: wrap;
+	justify-content: center;
+  align-items: center;
+  width: 200px;
+	height: 160px;
+	padding: 20px;
+  text-decoration:none;
+  color: #ffffff;
+}
+
+
+.boxes-item a:hover {
+	background-color: #82b048;
+	color: #ffffff;
+	text-decoration:none;
+}
+
+
+.card-contenedor{
+	display: flex;
+}
+
+.card-padre{
+	min-width: 348px;
+	margin-bottom: 30px;
+}
+
+
+.estilo-card {
+	overflow: hidden;
+  box-shadow: 0px 0px 5px 1px rgba(56,56,56,0.25)!important;
+  border-radius: .4rem!important;
+}
+
+
+.card-title{
+	margin-bottom: 30px!important;
+	color: #76838F!important;
+}
+
+.catalogo-subtitulo h2{
+	color: #76838F!important;
+}
+
+.seccion{
+	padding-top: 60px;
+}

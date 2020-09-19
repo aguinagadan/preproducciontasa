@@ -1,0 +1,1745 @@
+/* >>>>>>>>>>>>>> ESTILOS GENERALES <<<<<<<<<<<< */
+/* BODY */
+body {
+	padding-top: 66.01px!important;
+}
+
+
+/* COLOR VERDE TASA PARA TEXTO */
+.mideco-textoverde{
+	color:#82b048;
+}
+
+/* COLOR CELESTE TASA PARA TEXTO */
+.mideco-textoceleste{
+	color:#5cbdeb;
+}
+
+/* COLOR BLANCO TASA PARA TEXTO */
+.mideco-textoblanco{
+	color:#ffffff;
+}
+
+/* COLOR AZUL TASA PARA TEXTO */
+.mideco-textoazul{
+	color:#184a7d;
+}
+/* COLOR GRIS CLARO TASA PARA TEXTO */
+.mideco-textogrisclaro{
+	color:#353535!important;
+}
+/* COLOR GRIS OSCURO TASA PARA TEXTO */
+.mideco-textogrisoscuro{
+	color:#2c2c2c;
+}
+
+/* CONVERTIR TEXTO A MAYUSCULAS */
+.mideco-mayusculas{
+	text-transform: uppercase!important;
+}
+
+/* CONVERTIR TEXTO A MINUSCULAS */
+.mideco-minusculas{
+	text-transform: lowercase!important;
+}
+/* CONVERTIR TEXTO A PRIMERA MAYUSCLA */
+.mideco-capital {
+	text-transform: capitalize!important;
+}
+
+
+/* subrayado */ 
+.mideco-subrayado{
+	border: 1px solid #f2f2f2;
+}
+
+
+
+/* TEXTO NEGRITAS */
+.mideco-bold600{
+	font-weight: 600;
+}
+
+.mideco-bold700{
+	font-weight: 700;
+}
+
+.mideco-bold800{
+	font-weight: 800;
+}
+
+.mideco-bold900{
+	font-weight: 900;
+}
+
+/* DECORANDO BOTONES DEL SITE */
+.btn-primary{
+	background-color: #5cbdeb!important;
+	border-color: #5cbdeb!important;
+}
+.btn-primary:hover{
+	background-color: #76a240!important;
+	border-color: #76a240!important;
+}
+
+.btn-info{
+	border-color: #5cbdeb!important;
+	background-color: #5cbdeb!important;
+	padding: 5px 14px!important;
+	margin-bottom: 5px!important;
+	margin-top: 5px!important;
+	margin-right: 5px!important;
+	margin-left: 5px!important;
+}
+.btn-danger{
+	padding: 5px 14px!important;
+	margin-bottom: 5px!important;
+	margin-top: 5px!important;
+	margin-right: 5px!important;
+	margin-left: 5px!important;
+}
+
+.btn-borde{
+	border-color: #ffffff!important;
+	padding: 5px 14px!important;
+	margin-bottom: 5px!important;
+	margin-top: 5px!important;
+	margin-right: 5px!important;
+	margin-left: 5px!important;
+	color: #ffffff;
+}
+.btn-borde:hover{
+	background-color: #f2f2f2!important;
+}
+
+/* BREADCRUMB */
+.breadcrumb{
+	/*display: none!important;*/
+}
+.breadcrumb a:hover{
+	color: #ffffff!important;
+}
+
+
+
+/* ASEGURANDO IFRAMES RESPONSIVOS */
+.video-responsive {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+.video-responsive iframe, .video-responsive object,.video-responsive embed,{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+/* FONDO VERDE */ 
+.mideco-bgverde{
+	background-color: #76a240!important;
+}
+
+/* LINK ACTIVOS */
+.nav-tabs-line, .nav-link.active{
+	color:#184a7d!important;
+}
+
+/* redefiniendo redondes */
+.rounded {
+	border-radius: .4rem!important;
+}
+.rounded-top{
+	border-top-left-radius: .4rem!important;
+	border-top-right-radius: .4rem!important;
+}
+.rounded-buttom{
+	border-bottom-right-radius: .4rem!important;
+	border-bottom-left-radius: .4rem!important;
+}
+
+/* CARDS */
+
+.card {
+	border-radius: .4rem!important;
+}
+.card-shadow {
+	-webkit-box-shadow:0px 5px 1px rgba(56,56,56,0.15)!important;
+	-moz-box-shadow:0px 0px 5px 1px rgba(56,56,56,0.15)!important;
+	box-shadow: 0px 0px 5px 1px rgba(56,56,56,0.15)!important;
+}
+
+
+/*  FULL WITH */
+.mideco-fullwidth{
+	width: 100%!important;
+}
+
+
+
+.page-title{
+	font-size: 3rem!important;
+	color:#ffffff!important;
+}
+
+
+
+.page-main {
+	background-image: url(../imgs/background-curso.jpg);
+	background-repeat: no-repeat;
+	background-size: auto auto;
+}
+
+
+
+
+.panel {
+	-webkit-box-shadow:0px 5px 1px rgba(56,56,56,0.15)!important;
+	-moz-box-shadow:0px 0px 5px 1px rgba(56,56,56,0.15)!important;
+	box-shadow: 0px 0px 5px 1px rgba(56,56,56,0.15)!important;
+}
+}
+
+
+
+.moodle-dialogue-wrap .btn{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+
+.generaltable th{
+	vertical-align: middle!important;
+}
+
+.quizreviewsummary i{
+	  top: -19px;
+    max-height: 0px;
+}
+
+
+/* >>>>>>>>>>>>>> MENU <<<<<<<<<<<< */
+/* MENU PRINCIPAL */
+/* ---fondo de logo */
+
+
+/* --- menu usuario*/
+.nav a{
+	color: #76838f!important;
+}
+.nav a:hover{
+	color: #5cbdeb!important;
+}
+.navbar-header {
+	background-color: #ffffff!important;
+}
+
+/* --- cuadramos bien la ubicacion del HAMBURGER */ 
+.navbar-toolbar .fa-bars{
+	top:5;
+}
+.site-navbar .navbar-header .hamburger .hamburger-bar, .site-navbar .navbar-header .hamburger::after, .site-navbar .navbar-header .hamburger::before {
+	background-color: #76838f!important;
+}
+
+
+
+/* --- cambiamos color de notificciones badge */
+.nav .badge{
+	background-color: #5cbdeb!important;
+}
+
+
+
+
+
+/* RESPONSIVE */
+/* --- evitando que el logo se minimice */
+@media (min-width: 768px){
+	.site-menubar-fold .site-navbar .navbar-header{
+		width: 260px!important;
+	}
+}
+/* --- arreglando y coloreado icono suspensivo */
+.hideshow .icon{
+	padding-top: 5px!important;
+}
+.site-navbar .navbar-header .navbar-toggler{
+	color: #76838f!important;
+}
+
+
+
+/* >>>>>>>>>>>>>> ASIDE <<<<<<<<<<<< */
+/* aside */
+/* --- cambiando fondo de switch */
+.page-aside-switch-lg {
+	background-color: #184a7d!important;
+
+}
+
+/* >>>>>>>>>>>>>> FOOTER <<<<<<<<<<<< */
+/* FOOTER */
+/* --- cambiamos color de fondo ---- considerar que este cambio no funciona aqui sino en el css del theme */
+.bg-primary-600{
+	background-color: #353535!important;
+}
+/* --- cambiando color de borde top */
+.site-footer{
+	border-top: 1px solid #353535!important;
+}
+
+.site-footer h5{
+	color: #ffffff!important;
+	font-size: 0.9rem;
+}
+.site-footer a:hover{
+	color: #82b048;
+	font-size: 0.9rem;
+	text-decoration: none;
+}
+
+
+
+/* >>>>>>>>>>>>>> HOME <<<<<<<<<<<< */
+/* PAGE */
+/* --- sin espacios laterales para que ocupe el 100% de la pantalla */
+.mideco-fullwidth .page-content{
+	padding: 0px 0px!important
+}
+
+
+/* SLIDER */
+
+
+/* --- estilizando texto del slider responsivo */
+@media (max-width: 500px){
+	.carousel-caption h1{
+		font-size: 0.9rem!important;
+	}
+	.carousel-caption h5{
+		font-size: 0.9rem!important;
+	}
+	.mideco-slider{
+		display: none!important;
+	}
+}
+/* --- eliminar espacio inferior del slider */
+.page-main .mb-50{
+	margin-bottom: 0px!important;
+}
+
+
+/* BLOQUE CURSOS DISPONIBLES */
+/* --- fondo del bloque */
+.mideco-cursosdisponibles{
+	background-color:#fff;
+	background-image: url(../imgs/background-cursosdisponibles.jpg);
+	background-repeat: no-repeat;
+}
+/* --- titulo del bloque*/
+.mideco-cursosdisponibles h2{
+	color: white!important;
+	/*text-transform: uppercase;*/
+	padding-top: 100px!important;
+	padding-bottom: 50px!important;
+	font-size: 3rem!important;
+}
+/* --- decoramos los card de cada curso*/
+.mideco-cursosdisponibles .card{
+	min-height: 435px!important;
+	/*padding: 5px;*/
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.0)!important;
+	-webkit-box-shadow:0px 5px 1px rgba(56,56,56,0.15)!important;
+	-moz-box-shadow:0px 0px 5px 1px rgba(56,56,56,0.15)!important;
+	box-shadow: 0px 0px 5px 1px rgba(56,56,56,0.15)!important;
+}
+
+.mideco-cursosdisponibles .card-block{
+	padding-top: 2.4rem!important;
+	padding-bottom: 2.4rem!important;
+	padding-left: 2rem!important;
+	padding-right: 2rem!important;
+	-webkit-box-shadow:0px 5px 1px rgba(56,56,56,0.2);
+	-moz-box-shadow:0px 0px 5px 1px rgba(56,56,56,0.2);
+	box-shadow: 0px 0px 5px 1px rgba(56,56,56,0.2);
+	background-color: #fff!important;
+
+}
+.mideco-cursosdisponibles .card-block .font-size-18 {
+	font-size: 1.6rem!important;
+}
+.mideco-cursosdisponibles .card-block .card-title {
+	/*height: 60px;*/
+}
+.mideco-cursosdisponibles .card-block .card-text{
+	font-size: 13!important;
+	margin-top: 20px!important;
+}
+.mideco-cursosdisponibles .slick-track .slick-slide{
+	padding-bottom: 5px!important;
+	background-color:  rgba(0,0,0,0.0)!important;
+}
+.mideco-cursosdisponibles #frontpage-course-list .text-right{
+	margin: 50px!important;
+	text-align: center!important;
+}
+
+
+
+/* BLOQUE MARKETING SPOTS */
+/* --- fondo del bloque */
+.mideco-marketing-spots{
+	background-image: url(../imgs/background-beneficios.jpg);
+	background-repeat: no-repeat;
+	background-size: auto auto;
+	padding-top: 60px!important;
+	padding-bottom: 50px!important
+}
+/* --- ajustando el fondo responsivo*/ 
+@media (max-width: 767px) {.mideco-marketing-spots {
+	background-size: auto 100%;
+}}
+
+
+/* --- spots */ 
+.overlay{
+	color: #fff;
+}
+.marketing-spots .spot{
+	border:0px!important;
+	padding: 30px!important;
+}
+.spot .bg-grey-200{
+	background-color: none!important;
+}
+.marketing-spots .iconsquare{
+	background-color: #58bdec!important;
+	min-width: 110px;
+	min-height: 110px;
+	max-width: 110px;
+	max-height: 110px;
+	display: inline-block;
+	font-size: 44px!important;
+	padding-top: 18px;
+	border-radius: 100%;
+}
+.iconbox-content{
+	font-weight: 100;
+	padding-top: 20px!important;
+	padding-bottom: 10px!important;
+	padding-left: 20px!important;
+	padding-right: 20px!important;
+}
+.marketing-spots .overlay-panel{
+	border:0px!important;
+	color: #9c9c9c!important;
+	position: relative!important;
+	padding: 0px!important;
+}
+
+@media (min-width: 480px) {.marketing-spots .iconbox{
+	padding: 0px!important;
+}}
+.overlay-hover:not(:hover) .overlay-panel:not(.overlay-backgound-fixed){
+	opacity: 0!important;
+	padding:20px!important;
+}
+
+
+
+
+/* BLOQUE TESTIMONIOS */
+.mideco-testimonials{
+	/*background-image: url(../imgs/background-testimonials.jpg);*/
+	background-repeat: no-repeat;
+	height: auto;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+
+.mideco-testimonials h3{
+	color: #585858!important;
+	/*text-transform: uppercase;*/
+}
+
+/* --- ajustando foto de perfil */
+.mideco-testimonials .avatar img{
+	max-height: 150px!important;
+	margin-left: -75px!important;
+	margin-top: -5px!important;
+	max-width: none!important;
+	width: auto!important;
+}
+
+.mideco-testimonials .avatar-100{
+	width: 150px!important;
+	height: 150px!important;
+	overflow: hidden;
+}
+/* --- ajustando el texto contenido*/
+@media (max-width: 767px) {.mideco-testimonials .testimonial_cr .carousel-item {
+	min-height: 385px!important;
+}}
+.mideco-testimonials .overlay-panel .pt-20{
+	width: 80%!important;
+	display: inline-block!important;
+}
+
+
+/* SIDE BAR DERECHO */
+/* --- evitando se deformen los iconos de cabecera */
+.site-sidebar-nav.nav-tabs>.nav-item>.nav-link{
+	padding: .715rem 1.429rem!important;
+}
+
+
+/* CAMBIAR THEMA */
+/* --- eliminamos esta opcion */
+#theme_switch_link {
+	display:none!important;
+}
+.site-footer-right{
+	display: none!important;
+}
+
+
+
+/* >>>>>>>>>>>>>> LOGIN <<<<<<<<<<<< */
+/* TENER EN CUENTA QUE EL LOGIN IMPORTA SU PROPIA HOJA DE ESTILO PARA EVITAR CONFLICTOS */
+
+
+
+
+
+/* >>>>>>>>>>>>>> DASHBOARD <<<<<<<<<<<< */
+/* HEAD DE PAGINA */
+.mideco-headdashboard{
+	background-image: url(../imgs/background-dashboard.jpg);
+	background-repeat: no-repeat;
+	background-color: #fff!important;
+}
+
+/* CUERPO */
+/* --- quitamos el boton personalizar pagina*/
+.container #page-header .page-header-actions{
+	display: none!important;9;
+}
+/* --- decoramos el TITLE de la pagina*/
+.mideco-headdashboard .page-title{
+	font-size: 3rem!important;
+	color:#fff!important;
+}
+
+
+
+
+/* BLOQUE MY OVERVIEW */
+.block-myoverview .bg-white{
+	background-color: transparent;
+	color: #fff!important;
+}
+#course-overview-section{
+	color: #fff!important;
+}
+#course-overview-section .nav-link{
+	color: #fff!important;
+	text-transform: uppercase;
+}
+
+#course-overview-section .badge{
+	margin-left: 5px;
+}
+.block-myoverview .text-white{
+	background-color: #fff!important;
+	color: #526069!important
+}
+.mideco-headdashboard .page-header {
+	padding: 100px 30px 10px 30px!important;
+}
+.mideco-headdashboard .py-15 {
+	padding-top: 0px!important;
+}
+.mideco-headdashboard .mt-10  {
+	margin-top: 0px!important;
+}
+.mideco-headdashboard .page-aside-section:first-child {
+	margin-top: 0px!important;
+	padding-top: 0px!important;
+}
+.block-myoverview .w-p1001798; h5 {
+	display: none;
+}
+.mideco-headdashboard .wdm-overview-slider {
+	padding-bottom: 20px!important;
+}
+.mideco-headdashboard .polite {
+	padding-bottom: 20px!important;
+}
+
+
+
+ .block-myoverview .slick-prev{
+ 	left: -30px!important;
+
+ }
+
+ .block-myoverview .slick-next{
+ 	right: -15px!important;
+ }
+
+
+.circle {
+	margin-right: auto!important;
+	margin-left: auto!important;
+	margin-top: 20px!important;
+	margin-bottom: 20px!important;
+	border: 0px!important;
+	border-radius: 0%!important;
+	background-color: #76a240!important;
+	width: 90%!important;
+	max-height: 20px!important;
+	min-height: 20px!important;
+	top: -39px!important;
+}
+.mideco-circle-back {
+	margin-right: auto!important;
+	margin-left: auto!important;
+	margin-top: 20px!important;
+	margin-bottom: 20px!important;
+	border: 0px solid #76a240!important;
+	border-radius: 0!important;
+	background-color: #f2f2f2!important;
+	width: 90%!important;
+	max-height: 20px!important;
+	min-height: 20px!important;
+	
+}
+.mideco-altoespaciobarra{
+	height: 60px!important;
+	width: 100%;
+}
+
+
+.circle-text{
+	font-weight: 200!important;
+	text-align: center!important;
+}
+
+.mideco-contenedortitulooverview{
+	display: table;
+	min-height: 90px!important;
+}
+
+.mideco-titulooverview {
+	font-size: 1.4rem!important;
+	font-weight: 400!important;
+}
+
+.mideco-centrandoboton {
+	padding-top: 5px!important;
+	padding-bottom: 20px!important;
+
+}
+
+.mideco-sombrapanelmyoverview{
+	padding-left: 2rem!important;
+	padding-right: 2rem!important;
+	-webkit-box-shadow:0px 5px 1px rgba(56,56,56,0.15);
+	-moz-box-shadow:0px 0px 5px 1px rgba(56,56,56,0.15);
+	box-shadow: 0px 0px 5px 1px rgba(56,56,56,0.15);
+}
+
+.overlay-background {
+	background:rgba(255,255,255,.2)!important;
+	scale:30%!important;
+}
+
+
+#courses-view-in-progress{
+	padding-bottom: 0px!important;
+}
+
+
+
+
+
+/* BARRA ACCESOS DIRECTOS */
+
+.directos{
+
+}
+
+/* --- fondo del bloque */
+.mideco-directos-spots{
+	background-repeat: no-repeat;
+	background-size: auto auto;
+	padding-top: 0px!important;
+	padding-bottom: 20px!important;
+	background-image: linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0.0)),url(../imgs/background-beneficios.jpg);
+}
+/* --- ajustando el fondo responsivo*/ 
+@media (max-width: 767px) {.mideco-directos-spots {
+	background-size: auto 100%;
+}}
+
+.iconbox-content-btn{
+	font-weight: 100;
+	padding-bottom: 10px!important;
+	padding-left: 20px!important;
+	padding-right: 20px!important;
+}
+
+
+
+
+
+
+/* PANELES */
+/* --- quitamos el bloque vacio */
+.carousel.vertical .carousel-inner {
+	/*display: none!important;*/
+	height: 0px!important;
+}
+
+
+
+/* BLOQUE ESTADISTICAS GENERALES */
+/* --- decoramos el bloque de estadisgitcas generales*/
+
+#welcome-section {
+	/*background-color: #76a240!important;*/
+	color: #a4a4a4!important;
+	background-color: #fff!important;
+	-webkit-box-shadow:0px 5px 1px rgba(56,56,56,0.15);
+	-moz-box-shadow:0px 0px 5px 1px rgba(56,56,56,0.15);
+	box-shadow: 0px 0px 5px 1px rgba(56,56,56,0.15);
+}
+
+#welcome-section h5{
+	color: #76a240!important;
+	text-transform: uppercase;
+	font-weight: 200!important;
+}
+/* --- decoramos el bloque ultimos miembros*/
+#latest_members h5{
+	color: #82b048!important;
+}
+/* --- decoramos el bloque agregar comentarios o notas*/
+#add_notes h5{
+	color: #82b048!important;
+}
+#add_notes .mx-auto{
+	margin-left: 0px!important;
+	margin-right: 0px!important;
+}
+#welcome-section .counter-number{
+	color: #383838!important;
+	font-size: 60px!important;
+}
+#welcome-section .card-block{
+	padding: 0px!important;
+}
+#welcome-section .pie-progress-sm .pie-progress-number{
+	font-size: 20px!important;
+	color:#383838!important;
+	font-weight: 600!important;
+}
+#welcome-section .pie-progress-svg #svg #ellipse{
+	stroke: #383838!important;
+}
+
+
+
+
+
+
+
+
+
+/* BLOQUE TAREAS */
+/* ```decoramos el bloque upcoming notificaciones*/
+#new-upcoming-block-MIDECO{
+	margin-top: 20!important;
+	background-color: #fff!important;
+	color: #a4a4a4!important;
+	-webkit-box-shadow:0px 5px 1px rgba(56,56,56,0.15);
+	-moz-box-shadow:0px 0px 5px 1px rgba(56,56,56,0.15);
+	box-shadow: 0px 0px 5px 1px rgba(56,56,56,0.15);
+	border-radius: .4rem!important;
+}
+#new-upcoming-block-MIDECO h5{
+	color: #58bdec!important;
+	text-transform: uppercase;
+	font-weight: 200!important;
+}
+#new-upcoming-block-MIDECO .text-muted{
+	color: #fff!important;
+}
+#new-upcoming-block-MIDECO .badge{
+	background-color: #58bdec!important;
+	margin-left: 5px!important;
+}
+#new-upcoming-block-MIDECO .nav-link.active{
+	color: #58bdec!important;
+}
+#new-upcoming-block-MIDECO img {
+	opacity: 0.34;
+}
+
+#new-upcoming-block-MIDECO .card-bottom-first{
+	display: none!important;
+}
+#new-upcoming-block-MIDECO .card-bottom-second{
+	display: none!important;
+}
+
+#new-upcoming-block-MIDECO .mideco-altotask{
+	height: 199px!important;
+}
+@media (min-width: 300px){
+	#new-upcoming-block-MIDECO{
+		margin-top: 20px!important;
+		width:91%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media (min-width: 560px){
+	#new-upcoming-block-MIDECO{
+		margin-top: 20px!important;
+		width:95%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media (min-width: 992px){
+	#new-upcoming-block-MIDECO{
+		margin-top: 20px!important;
+		width:39%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+
+/* BLOQUE ANALISIS DE CURSOS */
+/* ---decoramos el bloque */
+#quiz-overview {
+	border-radius: .4rem!important;
+}
+
+#quiz-overview .card-header .page-aside-title{
+	color: #184a7d!important;
+	font-weight: 200;
+	text-transform: uppercase;
+}
+
+#quiz-overview #coursecategorylist{
+	color: #a4a4a4!important;
+	/*border-color: #a4a4a4!important;*/
+}
+
+
+
+/* BLOQUE COMENTARIOS Y FOROS */
+#recent-section .card-shadow{
+	-webkit-box-shadow:0px 0px 0px rgba(56,56,56,0.0)!important;
+	-moz-box-shadow:0px 0px 0px 0px rgba(56,56,56,0.0)!important;
+	box-shadow: 0px 0px 0px 0px rgba(56,56,56,0.0)!important;
+}
+
+
+#recent-section{
+	-webkit-box-shadow:0px 5px 1px rgba(56,56,56,0.15)!important;
+	-moz-box-shadow:0px 0px 5px 1px rgba(56,56,56,0.15)!important;
+	box-shadow: 0px 0px 5px 1px rgba(56,56,56,0.15)!important;
+	/*border-radius: .4rem!important;*/
+}
+
+
+
+
+/* CHAT */
+.site-sidebar .conversation-header{
+	padding-top: 20px!important;
+}
+
+.chat-content{
+	background-color: #dfe9ef!important;
+	color: #76838f!important;
+}
+.chat-time{
+	color: #a3afb7!important;
+}
+
+
+.chat-left .chat-content{
+	background-color: #76a240!important;
+	color: #fff!important;
+}
+.chat-left .chat-time{
+	color: rgba(255,255,255,0.6)!important;
+}
+
+
+
+
+
+
+/* >>>>>>>>>>>>>> MENSAJES <<<<<<<<<<<< */
+/* MENSAJERIA */
+/* --- cambiamo color de fonde de contacto seleccionado */
+.messaging-area-container .messaging-area .contacts-area .contacts .contact.selected {
+	background-color: #76a240!important;
+}
+/* --- cambiamos color de texto */
+.messaging-area-container .messaging-area .contacts-area .contacts .contact.selected h5{
+	color: #fff!important;
+}
+/* --- cambiamos color de texto de ultimo mensaje */
+.messaging-area-container .messaging-area .contacts-area .contacts .contact .lastmessage{
+	color: rgba(255,255,255,0.6)!important;
+}
+.messaging-area-container .messaging-area .contacts-area .contacts .contact:hover{
+	/* > color original < */
+	/*background-color: #599bdf;*/
+	background-color: #5cbdeb!important;
+}
+
+/* --- agregamos un espacio superior para nivelar el tab de botones */
+.messaging-area-container .messaging-area .contacts-area .tabs .tab {
+	padding-top: 5px!important;
+}
+/* --- cambiamos color de fondo del boton selecionado */
+.messaging-area-container .messaging-area .contacts-area .tabs .tab.selected {
+	color: #5cbdeb!important;
+}
+/* --- cambiamos color de fondo del boton mouseover */
+.messaging-area-container .messaging-area .contacts-area .tabs .tab:hover{
+	color: #5cbdeb!important;
+}
+
+.timesent{
+	color: #a3afb7!important;
+}
+
+.chat-left .timesent{
+	color: rgba(255,255,255,0.6)!important;
+}
+.chat-right .chat-content:before{
+	border-left-color: #dfe9ef!important;
+}
+
+.chat-left .chat-content:before{
+	border-right-color: #76a240!important;
+}
+.messages-area .status{
+	width: 90px!important
+}
+
+.response .w-p75{
+	width: 100%!important
+}
+
+
+
+
+
+/* >>>>>>>>>>>>>> CATALOGO DE CURSOS <<<<<<<<<<<< */
+/* --- look de lo paneles items de cursos*/
+#categoryCourses .card{
+	-webkit-box-shadow:0px 5px 1px rgba(56,56,56,0.15)!important;
+	-moz-box-shadow:0px 0px 5px 1px rgba(56,56,56,0.15)!important;
+	box-shadow: 0px 0px 5px 1px rgba(56,56,56,0.15)!important;
+	border-radius: .4rem!important;
+}
+#categoryCourses .card-block{
+	padding-top: 1.429rem!important;
+	padding-right: 1.429rem!important;
+	padding-bottom: 0.5rem!important;
+	padding-left: 1.429rem!important;
+}
+#categoryCourses .card-footer{
+	border-top: none!important;
+}
+
+/* --- gotones grid and list */
+.grid_btn{
+	margin-right: 5px!important;
+}
+.grid_btn:hover{
+	color: #ffffff!important;
+}
+.list_btn:hover{
+	color: #ffffff!important;
+}
+.btn-outline.btn-primary{
+	color: #ffffff!important;
+}
+
+.mideco-navlink .nav-link.active{
+	color: #ffffff!important;
+	border-bottom: 2px solid #ffffff!important;
+}
+
+.mideco-tabs .nav-tabs{
+	border-bottom: 1px solid #76838f!important;
+}
+
+#mycategoryCourses .btn-block{
+	/*max-width: 237px!important;*/
+}
+
+
+
+
+
+
+/* >>>>>>>>>>>>>> CURSOS <<<<<<<<<<<< */
+
+/* BARRA IZQUIERDA */
+/* --- color fondo */
+.site-menubar.site-menubar-light{
+	/*background: #184a7d!important;*/
+	color:#ffffff!important;
+}
+/* --- color fuente */
+.site-menubar-light .site-menu-item a {
+	color:#76838f!important;
+}
+
+/* --- color fondo y color texto del item activo*/
+.site-menubar-light .site-menu>.site-menu-item.active>a{
+	background: #5cbdeb!important;
+	color:#ffffff!important;
+}
+
+/* --- color fondo y color texto del item cuando pasa el mouse*/
+.site-menubar-fold.site-menubar-fold-alt .site-menubar-light .site-menu>.site-menu-item>a .site-menu-title{
+	background: #ffffff!important;
+	color: #184a7d!important;
+}
+
+/* --- color fondo y color ICONO del item cuando pasa el mouse*/
+.site-menubar-fold.site-menubar-fold-alt .site-menu>.site-menu-item.hover>a .site-menu-icon{
+	background: #ffffff!important;
+	color: #5cbdeb!important;
+}
+
+
+/* CONTENIDO */
+/* --- Youtube responsive */
+.mediaplugin_videojs .diva{
+	max-width: 100%!important;
+}
+
+.page{
+	background: #f2f2f2!important;
+}
+
+#section-0 .page-title{
+	color: #ffffff!important;
+}
+
+/* --- estilo de titulo seccion0 */
+.page-title-seccion0{
+	font-size: 18px!important;
+}
+
+/* --- titulo de pagina principal del curso */
+.mideco-pagecurso header .page-title{
+	display: none;
+}
+.mideco-pagecurso header .breadcrumb{
+	display: none;
+}
+
+
+/* --- color de topicos */
+.topics .card{
+	background-color: #fff!important;
+	/*border-left: solid 1px #e4eaec;
+	border-right: solid 1px #e4eaec;
+	border-bottom: solid 1px #e4eaec;
+	border-top: solid 1px #e4eaec;*/
+}
+/* titulo de seccion */
+.topics .card h4.sectionname a{
+	color:#76a240!important;
+	text-transform: uppercase;
+}
+.topics .card h4.sectionname a:hover{
+	color:#184a7d!important;
+}
+
+.topics .page{
+	min-height: 1px!important;
+}
+/*  color de borde del footer topico  */
+.card-footer{
+	border-top: solid 0px #e4eaec!important;
+}
+
+
+.mideco-pagecurso{
+	background-image: url(../imgs/background-curso.jpg);
+	background-repeat: no-repeat;
+	background-size: auto auto;
+	background-color: #f5f6f6!important;
+}
+
+.mideco-pagecurso h2{
+	color: #ffffff!important;
+}
+
+
+
+/* --- diferenciamos las secciones */
+.mideco-section .page{
+	background-color: #ffffff!important;
+}
+
+.first-section .activityicon{
+	width: 100px!important;
+	height: 100px!important;
+	border-radius: 7rem!important;
+	border: 2px;
+	border-color: #5cbdeb!important;
+	border-style: solid!important;
+	padding: 2px!important;
+}
+
+.first-section .activityinstance {
+	min-height: 150!important;
+}
+.first-section .availabilityinfo {
+	margin-left: 30px!important;
+  margin-right: 30px!important;
+}
+
+.first-section .autocompletion {
+	padding-left: 5px;
+}
+
+.first-section .instancename{
+	margin-left: 20px;
+  margin-right: 20px;
+}
+
+.mideco-section .activityicon{
+	background-color: #5cbdeb!important;
+	border-radius: .4rem!important;
+	width: 50!important;
+	height: 55!important;
+}
+
+.activity-list .panel-collapse{
+	padding-top: 0px!important;
+	padding-bottom: 0px!important;
+}
+.list-group-dividered .list-group-item{
+	border-top-color: #f2f2f2!important;
+}
+.mideco-section .actions{
+	padding-top: 12px!important;
+}
+
+.section .activity .availabilityinfo {
+	/*margin-top: 10px!important;*/
+	/*margin-left: 0px!important;*/
+  font-size: 0.8rem!important;
+}
+
+.first-section-activity form{
+	margin-bottom: 0px!important;
+}
+
+
+/* LINKS */
+.course-content a{
+	color: #5cbdeb!important;
+}
+
+.course-content a:hover{
+	color: #184a7d!important;
+	text-decoration: none;
+}
+
+.course-content .section-modchooser a{
+	color: #ffffff!important;
+}
+
+
+.mideco-pagecurso #section-0{
+	background-color: #ffffff!important;
+	border-radius: .6rem!important;
+}
+
+.mideco-pagecurso .topics .main {
+	-webkit-box-shadow:0px 5px 1px rgba(56,56,56,0.15);
+	-moz-box-shadow:0px 0px 5px 1px rgba(56,56,56,0.15);
+	box-shadow: 0px 0px 5px 1px rgba(56,56,56,0.15);
+}
+
+.mideco-pagecurso #section-0 .content{
+	margin-bottom: 60px!important;
+	padding-bottom: 20px!important;
+}
+
+.mideco-pagecurso .first-section-li .course-cover-image{
+	border-top-right-radius: 0.5rem;
+	border-top-left-radius: 0.5rem;
+}
+
+.topics .panel{
+	-webkit-box-shadow:none!important;
+	-moz-box-shadow:none!important;
+	box-shadow: none!important;
+}
+
+
+
+/* APARIENCIA MENSAJES DE RESTRICCIONES*/
+.course-content .badge{
+	background-color: #76a240!important;
+    padding: 10px!important;
+}
+
+
+.badge-pill {
+	border-radius: 0.3rem!important;
+}
+
+.section_availability strong {
+	padding-left: 3px;
+    padding-right: 3px;
+}
+
+.section_availability strong a {
+	color:#ffffff!important;
+}
+    
+
+
+
+
+
+/* >>>>>>>>>>>>>> PLUGINS <<<<<<<<<<<< */
+
+.alert-icon>.icon{
+	font-size: 0rem!important;
+}
+
+.block_xp-recent-activity .activity-entry{
+	font-size: 70%!important;
+}
+
+
+
+.block_xp-page-nav .nav-item .nav-link.active{
+	color: #ffffff!important;
+	border-bottom: 2px solid #ffffff!important;
+}
+
+.block_xp-page-nav .nav-tabs{
+	border-bottom: 1px solid #76838f!important;
+}
+
+.h5p-hub .demo-button {
+	visibility: hidden;
+}
+
+
+/* >>>>>>>>>>>> ADMIN <<<<<<<<<<< */
+#page-mod-quiz-edit .add-menu-outer {
+    top: 3px!important;
+}
+
+#page-mod-quiz-edit .add-menu-outer .btn-icon{
+	padding: .5rem!important;
+}
+
+#page-mod-quiz-edit .page{
+	min-height: 37px!important;
+}
+#page-mod-quiz-edit .page h4{
+	position: relative!important;
+    top: 8px!important;
+    margin: 10px!important;
+}
+
+
+/* EDITANDO CURSO */
+/* --- SUBIR IMAGENES */
+.filemanager{
+	width: 100%;
+}
+.filemanager .fp-restrictions{
+	text-align: left!important;
+}
+.form-inline {
+	align-items: flex-start!important;
+}
+
+.form-inline p {
+	padding-right: 10px;
+}
+
+
+.form-filetypes-descriptions{
+	width: 120px!important;
+}
+
+/* EDITANDO ACTIVIDAD */
+/* --- ARRELGLANDO OPCIONES DE REVISIÓN */
+#page-mod-quiz-mod #id_reviewoptionshdr .form-check{
+	height: 50px!important;
+	display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#page-mod-quiz-mod #id_reviewoptionshdr .form-check input {
+	margin-top: 5px;
+}
+
+#page-mod-quiz-mod #id_reviewoptionshdr .form-inline{
+	/*padding-top: 25;*/
+}
+#page-mod-quiz-mod #id_reviewoptionshdr .form-check a{
+  position: relative;
+	right: 0;
+}
+
+#page-mod-quiz-mod #id_reviewoptionshdr .col-md-3{
+	height: 60px;
+}
+
+#page-mod-quiz-mod #id_reviewoptionshdr .col-form-label {
+	font-weight: 700;
+}
+
+
+/* ---- OCULTANDO OPCIONES EN LA CREACIÓN DE CUESTIONARIOS */
+#page-mod-quiz-mod #id_reviewoptionshdr{
+	display: none!important;
+}
+#page-mod-quiz-mod #id_layouthdr{
+	display: none!important;
+}
+#page-mod-quiz-mod #id_interactionhdr{
+	display: none!important;
+}
+
+#page-mod-quiz-mod #id_display{
+	display: none!important;
+}
+#page-mod-quiz-mod #id_security{
+	display: none!important;
+}
+
+#page-mod-quiz-mod #id_overallfeedbackhdr{
+	display: none!important;
+}
+
+#page-mod-quiz-mod #id_modstandardelshdr{
+	display: none!important;
+}
+
+
+/* OCULTANDO OPCIONES EN LA CREACIÓN DE CURSOS */
+#page-course-edit #id_reviewoptionshdr{
+	display: none!important;
+}
+#page-course-edit #id_layouthdr{
+	display: none!important;
+}
+#page-course-edit #id_interactionhdr{
+	display: none!important;
+}
+#page-course-edit #id_display{
+	display: none!important;
+}
+
+#page-course-edit #id_groups{
+	display: none!important;
+}
+#page-course-edit #id_rolerenaming{
+	display: none!important;
+}
+
+#page-course-edit #id_appearancehdr{
+	display: none!important;
+}
+
+#page-course-edit #id_filehdr{
+	display: none!important;
+}
+
+
+#page-course-edit #id_completionhdr{
+	display: none!important;
+}
+
+
+
+/* MODIFICANDO ACTIVIDADES */
+#page-mod-resource-mod #id_modstandardelshdr{
+	display: none!important;
+}
+
+
+/* --- SUBIENDO IMAGEN */
+.nav-pills .nav-link.active{
+	color: #ffffff!important;
+}
+
+
+
+
+/* COHORTES */
+#page-cohort-assign .userselector{
+	min-width: 450px;
+}
+
+/* tour */
+
+body div[data-flexitour="step-background"] {
+  background-color: rgba(220, 220, 220, 1)!important;
+  border-color: white;
+  border-width: 0;
+  border-style: solid;
+}
+
+
+/* matriculación */
+#page-enrol-index .enrolmenticons{
+	display: none!important;
+}
+
+#page-enrol-index #id_selfheader{
+	display: none!important;
+}
+
+
+#page-enrol-index .form-inline{
+	flex-flow: row-reverse wrap!important;
+}
+
+
+#page-enrol-index .pad.row{
+	display: none!important;
+}
+
+
+/* participantes cursos */
+
+
+#page-course-view-topics .initialbar{
+	padding-bottom: 20px;
+}
+
+
+#page-course-view-topics table.flexible thead .header{
+	min-width: 230px!important;
+}
+
+#page-course-view-topics table.flexible thead .header.c0{
+	min-width: 100px!important;
+}
+#page-course-view-topics table.flexible thead .header.c3{
+	min-width: 130px!important;
+}
+
+#page-course-view-topics table.flexible thead .header.c4{
+	min-width: 130px!important;
+}
+
+#page-course-view-topics table.flexible thead .header.c6{
+	min-width: 150px!important;
+}
+
+
+#page-course-view-topics table.flexible thead th{
+	font-weight: 600!important;
+}
+
+
+#page-course-view-topics table.flexible tbody td{
+	font-size: 0.8rem;
+}
+
+
+#page-course-view-topics .custom-select{
+	margin-top: 20px;
+}
+
+#page-course-view-topics .form-autocomplete-selection+.form-control{
+	min-width: 320px;
+}
+
+#page-course-view-topics .form-autocomplete-downarrow{
+	top: .0rem!important;
+}
+
+
+#page-course-view-topics .section .page {
+	background: #ffffff!important;
+}
+
+
+
+
+
+/* calificaciones */
+
+#page-grade-report-grader-index .initialbar{
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+
+/* perfil usuario */ 
+#page-course-view-topics .page-content .page-title{
+	color: ##37474f!important;
+}
+
+
+/* modal */ 
+.moodle-dialogue-confirm .confirmation-dialogue input{
+	margin: 10px;
+}
+
+
+/* REVISIÓN DE EXAMEN */
+#page-mod-quiz-review table.quizreviewsummary th.cell{
+	width: 12em!important;
+}
+
+#page-mod-quiz-review .mod_quiz-next-nav{
+		padding: 6px 10px;
+    padding-right: 25px!important;
+    padding-left: 25px!important;
+    background-color: #5cbdeb!important;
+    border-color: #5cbdeb!important;
+    font-size: 14px!important;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+#page-mod-quiz-view .generalbox#feedback{
+  width: 100%!important;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px!important;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgba(231,250,242,.8)!important;
+  color: #46be8a!important;
+  border-radius: 4px;
+}
+#page-mod-quiz-view .generalbox#feedback h3{
+	color: #46be8a!important;
+	font-size: 0.9rem!important;
+}
+
+
+#page-mod-quiz-view  .quizattempt{
+	margin-top: 15px;
+	padding-left: 15px;
+}
+
+
+#page-mod-hvp-mod .id_modstandardelshdr{
+	display: none;
+}
+
+
+#page-mod-customcert-mod .id_modstandardelshdr{
+	display: none;
+}
+
+/* licencia */
+.license-nag {
+	display: none;
+}
+
+
+/* formato de curso FORO */ 
+
+.forumpost {
+  padding: 16px;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+
+
+/* creación de tareas */
+#id_submissionsettings{
+	display: none;
+}
+
+
+/* MODAL MATRICULACIÓN MANUAL */
+#page-course-view-topics .modal-dialog .custom-select{
+	margin-top: 0px!important;
+}
+
+
+
+
+/* RESTRICCIONES DE ACCESO */
+
+#id_availabilityconditionsheader .fcontainer{
+	width: 100%;
+}
+
+#id_availabilityconditionsheader .availability-children{
+	width: 99%;
+}
+
+#id_availabilityconditionsheader .availability-inner, .availability-plugincontrols{
+	width: 99%!important;
+}
+#id_availabilityconditionsheader .availability-group{
+	margin: 5px;
+}
+
+#id_availabilityconditionsheader .felement .fcontainer{
+	border: 0px solid #f5f5f5!important;
+	padding: 0px;
+}
+
+#id_availabilityconditionsheader .availability-connector{
+	margin-left: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+
+/* PREGUNTAS DEL BANCO DE PREGUNTAS */
+
+
+
+ #page-question-edit #categoryquestions thead tr{
+ 	background-color: #184a7d;
+  height: 60px;
+  color: #ffffff;
+ }
+
+
+
+#page-question-edit #categoryquestions .questionname a{
+	color: #ffffff;
+}
+#page-question-edit #categoryquestions .questionname a:hover{
+	color: #76a240;
+	text-decoration: none;
+}
+
+#page-question-edit #categoryquestions thead tr a{
+	color: #ffffff;
+	text-decoration: none;
+}
+#page-question-edit #categoryquestions thead tr a:hover{
+	color: #76a240;
+	text-decoration: none;
+}
+#page-question-edit #categoryquestions tbody tr {
+	height: 40px;
+}
+
+
+#page-question-edit #categoryquestions .questiontext{
+ 	padding-left: 3.5rem!important;
+ 	font-size: 1rem;
+ 	padding-top: 0;
+ }
+
+
+#page-question-edit #categoryquestions td.creatorname{
+	text-align: center;
+}
+
+
+#page-question-edit #categoryquestions>tbody>tr:nth-of-type(even).highlight{
+	background-color: #fff;
+}
+
+#page-question-edit #categoryquestions>tbody>tr:nth-of-type(even){
+	background: #fff;
+  border-bottom: 1px;
+  border-color: #e4e4e4;
+  border-bottom-style: solid;
+}
+
+#page-question-edit #categoryquestions .highlight{
+	color: #58bdec!important;
+}
+
+#page-question-edit .modulespecificbuttonscontainer{
+	padding-top: 20px;
+}
+
+#page-question-edit .custom-select{
+	margin-top: 10px;
+}
+
+
+#page-mod-quiz-edit .section .activity .iconsmall {
+	padding-top: 6;
+}
+#page-mod-quiz-edit ul.slots li.activity div.activityinstance .questiontext{
+	margin-left: 8px;
+}
+
+#page-mod-quiz-edit ul.slots .activityinstance span.instancename{
+	height: 22px!important;
+	padding-top: 2px;
+}
+
+#page-mod-quiz-edit div.mod-quiz-edit-content li.activity div.mod-indent-outer div.activityinstance a img{
+	margin-top: 6px!important;
+}
+
+#page-mod-quiz-edit div.mod-quiz-edit-content .page_split_join .icon{
+	padding-top: 8;
+}
+
+
+
+#page-mod-quiz-edit ul.slots li.section li.activity{
+	background: #fafafa!important;
+}
+
+
+#page-mod-quiz-edit ul.slots .instancesectioncontainer{
+	display: none;
+}
+
+
+#page-mod-quiz-edit .mod_quiz-edit-top-controls .btn-toolbar{
+	display: none;
+}
+
+#page-mod-quiz-edit .section .activity .actions{
+	background: #fafafa!important;
+}
+
+#page-mod-quiz-edit .last-add-menu{
+	background: #fafafa!important;
+	height: 3.5rem!important;
+	margin-top: 30px;
+}

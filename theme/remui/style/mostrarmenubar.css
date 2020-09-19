@@ -1,0 +1,13 @@
+.hidden-float
+{
+/*display:none!important;*/
+}
+
+.notloggedin.site-menubar-fold .site-menubar,
+{
+  display: none;
+}
+.notloggedin.site-menubar-fold .page, .notloggedin.site-menubar-fold .site-footer
+{
+  margin-left: 0px;
+}

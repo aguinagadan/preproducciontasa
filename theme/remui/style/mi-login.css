@@ -1,0 +1,62 @@
+/* PANEL LOGIN */
+/* --- cambiamos el logo */
+.page-login-v2 .page-brand-info img {
+	content: url("../imgs/login_logo.png");
+}
+/* --- quitamos el margen */
+.page-login-v2 .page-brand-info {
+	margin: 0px 0px 0px 0px!important;
+}
+/* --- quitamos la mascara transparente de la imagen de fondo */
+.page-login-v2.page-dark.layout-full:after{
+	display: none!important;
+}
+.page-content{
+	padding: 0px 0px!important;
+}
+
+.page{
+	background: none!important;
+}
+
+@media only screen and (min-width: 767px){
+	body#page-login-index .page-login-main, body#page-login-signup .page-login-main {
+		padding: 10px 60px 180px!important;
+	}
+}
+
+@media (max-width: 479px){
+.page-login-v2 .page-login-main {
+    padding: 10px 30px 180px!important;
+  }
+}
+.page-login-v2 #page-footer{
+	display: none!important;
+}
+
+.page-login-v2 form {
+	margin: 25px 0 30px 0!important
+}
+
+.page-login-v2 .m-t-2{
+	font-weight: 400!important;;
+  color: #76838f!important;;
+  font-size: 1rem!important;
+  text-transform: uppercase;
+  margin-bottom: 22px!important;
+}
+body{
+	padding-top: 0px!important;
+}
+
+.page-login-v2 form>button{
+	margin-top: 25px!important;
+}
+.page-login-main .brand{
+	margin-bottom: 10px!important;
+}
+
+
+.page-login-main .potentialidp a img{
+	margin-right: 4px;
+}
