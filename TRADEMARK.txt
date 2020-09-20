@@ -47,4 +47,4 @@ contact us to ask for permission in writing.
 For information about the Moodle Partner Certification Mark as well as for how
 to contact us, please see <https://moodle.com/trademarks/>.
 
--- samuel uat
+-- samuel uat 2
