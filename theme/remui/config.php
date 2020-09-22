@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 require_once(__DIR__ . '/lib.php');
 
 $THEME->name = 'remui';
-$THEME->sheets = array('remui-min', 'custom');
+$THEME->sheets = ['remui-min', 'custom', 'catalogo-cursos', 'dashboard'];
 
 $THEME->layouts = [
     // Most backwards compatible layout without the blocks - this is the layout used by default.

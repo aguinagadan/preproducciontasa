@@ -691,6 +691,77 @@ class utility
         return $result;
     }
 
+	/**
+	 * Returns left navigation footer menus details.
+	 *
+	 * @return Array Menu details.
+	 */
+	public static function get_left_nav_footer_menus() {
+		global $CFG, $COURSE, $USER;
+		$menudata = array (
+			[
+				'url' => $CFG->wwwroot.'/course/index.php',
+				'iconclass' => 'fa-archive',
+				'title' => get_string('createarchivepage', 'theme_remui')
+			]
+		);
+		// Return all menus for site administrator.
+		if (is_siteadmin($USER)) {
+			$menus = array (
+				[
+					'url' => "{$CFG->wwwroot}/{$CFG->admin}/user.php",
+					'iconclass' => 'fa-users',
+					'title' => get_string('userlist')
+				],
+				[
+					'url' => self::get_course_creation_link(),
+					'iconclass' => 'fa-file',
+					'title' => get_string('createanewcourse', 'theme_remui')
+				],
+				[
+					'url' => "{$CFG->wwwroot}/{$CFG->admin}/settings.php?section=themesettingremui",
+					'iconclass' => 'fa-cogs',
+					'title' => get_string('remuisettings', 'theme_remui')
+				]
+			);
+			$menudata = array_merge($menudata, $menus);
+			$temp = array_splice($menudata, 1, 1);
+			array_splice($menudata, 0, 0, $temp);
+			return $menudata;
+		}
+
+		// Return menus for course creator.
+		$coursecontext = context_course::instance($COURSE->id);
+		if (has_capability('moodle/course:create', $coursecontext)) {
+			$menu = [
+				'url' => self::get_course_creation_link(),
+				'iconclass' => 'fa-file',
+				'title' => get_string('createanewcourse', 'theme_remui')
+			];
+			array_push($menudata, $menu);
+			$temp = array_splice($menudata, 1, 1);
+			array_splice($menudata, 0, 0, $temp);
+			return $menudata;
+		}
+		return $menudata;
+	}
+
+	/**
+	 * Returns the link for creating new course.
+	 *
+	 * @return string Course creation link.
+	 */
+	public static function get_course_creation_link() {
+		global $DB, $CFG;
+		$categories = $DB->get_records('course_categories', null, '', 'id');
+		$createcourselink = "#";
+		if (!empty($categories)) {
+			$firstcategory = reset($categories);
+			$createcourselink = $CFG->wwwroot. '/course/edit.php?category='.$firstcategory->id;
+		}
+		return $createcourselink;
+	}
+
     /**
      * Return the recent blog.
      *
@@ -732,7 +803,7 @@ class utility
      */
     public static function get_slider_data()
     {
-        global $PAGE, $OUTPUT;
+        global $PAGE, $OUTPUT, $CFG;
 
         $sliderdata = array();
         $sliderdata['isslider'] = false;
@@ -777,6 +848,7 @@ class utility
         } elseif (!$frontpagecontenttype) { // Static data.
             // Get the static front page settings
             $sliderdata['addtxt'] =  \theme_remui\toolbox::get_setting('addtext');
+            $sliderdata['searchURL'] = $CFG->wwwroot . '/course/search.php';
             $contenttype =  \theme_remui\toolbox::get_setting('contenttype');
             if (!$contenttype) {
                 $sliderdata['isvideo'] = true;
